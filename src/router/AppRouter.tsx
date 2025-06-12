@@ -10,6 +10,7 @@ import DownloadSong from '../pages/DownloadSong';
 import Login from '../pages/Login';
 import Page404 from '../pages/Page404';
 import ResetPasswordPage from '../pages/ResetPassword';
+import Youtube from '../pages/Youtube';
 
 const AppRouter = () => {
   const { session, setSession } = useContext(SessionContext);
@@ -50,6 +51,19 @@ const AppRouter = () => {
           session ? (
             <Layout>
               <About />
+            </Layout>
+          ) : (
+            <Login />
+          )
+        }
+      />
+
+      <Route
+        path='/youtube'
+        component={() =>
+          session ? (
+            <Layout>
+              <Youtube />
             </Layout>
           ) : (
             <Login />

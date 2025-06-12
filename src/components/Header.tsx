@@ -15,9 +15,9 @@ const Header = () => {
   };
 
   const navItems = [
-    { href: '/', label: 'Descargar' },
+    { href: '/', label: 'Spotify' },
+    { href: '/youtube', label: 'Youtube' },
     { href: '/acerca-de', label: 'Acerca de' },
-    //{ href: '/apoyar', label: 'Apoya el proyecto' },
   ];
 
   return (

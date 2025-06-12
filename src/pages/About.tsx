@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className='min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black py-12 px-4 sm:px-6 lg:px-8'>
+    <div className='min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8'>
       <div className='max-w-2xl w-full space-y-8'>
         <div className='bg-gray-900 shadow-2xl rounded-2xl p-8 border border-gray-700'>
           {/* Header */}
@@ -41,7 +41,7 @@ const About = () => {
                       clipRule='evenodd'
                     />
                   </svg>
-                  Descarga de música en alta calidad
+                  Descarga de música en 320Kbs (solo desde Spotify)
                 </li>
                 <li className='flex items-center'>
                   <svg
